@@ -12,7 +12,7 @@ bst_t *array_to_bst(int *array, size_t size)
 	bst_t *root = NULL;
 	size_t i;
 
-	if (!array || size == 0)
+	if (array || size == 0)
 		return (NULL);
 
 	/* Insert each element of the array into the BST */
