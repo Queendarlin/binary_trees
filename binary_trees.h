@@ -27,6 +27,7 @@ typedef struct binary_tree_s bst_t;
 typedef struct binary_tree_s avl_t;
 typedef struct binary_tree_s heap_t;
 
+int is_complete(const binary_tree_t *tree, size_t index, size_t size);
 void binary_tree_levelorder_recursion(const binary_tree_t *tree,
 		void (*func)(int), size_t level, size_t height);
 int binary_tree_is_descendant_of(const binary_tree_t *node,
