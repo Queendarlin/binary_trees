@@ -31,7 +31,7 @@ int is_complete(const binary_tree_t *tree, size_t index, size_t size);
 void binary_tree_levelorder_recursion(const binary_tree_t *tree,
 		void (*func)(int), size_t level, size_t height);
 int binary_tree_is_descendant_of(const binary_tree_t *node,
-                const binary_tree_t *ancestor);
+		const binary_tree_t *ancestor);
 void binary_tree_print(const binary_tree_t *);
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
